@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#6B9AC4"/>
+
+  <!-- Inner circle (breathing visualization) -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="white" stroke-width="8" opacity="0.9"/>
+
+  <!-- Center breathing circle -->
+  <circle cx="256" cy="256" r="100" fill="white" opacity="0.3"/>
+
+  <!-- Heart/Self symbol - simplified lotus -->
+  <path d="M256 180
+           C256 180 200 220 200 270
+           C200 310 230 340 256 340
+           C282 340 312 310 312 270
+           C312 220 256 180 256 180 Z"
+        fill="white" opacity="0.9"/>
+
+  <!-- Small accent circles -->
+  <circle cx="256" cy="140" r="12" fill="white" opacity="0.7"/>
+  <circle cx="340" cy="200" r="8" fill="white" opacity="0.5"/>
+  <circle cx="172" cy="200" r="8" fill="white" opacity="0.5"/>
+</svg>

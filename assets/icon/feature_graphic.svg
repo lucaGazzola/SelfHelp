@@ -1,0 +1,56 @@
+<svg width="1024" height="500" viewBox="0 0 1024 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B9AC4"/>
+      <stop offset="100%" style="stop-color:#93B5A0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="500" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circles (breathing visualization) -->
+  <circle cx="150" cy="250" r="180" fill="white" opacity="0.08"/>
+  <circle cx="150" cy="250" r="140" fill="white" opacity="0.08"/>
+  <circle cx="150" cy="250" r="100" fill="white" opacity="0.08"/>
+
+  <circle cx="900" cy="100" r="120" fill="white" opacity="0.06"/>
+  <circle cx="950" cy="420" r="80" fill="white" opacity="0.06"/>
+
+  <!-- App icon circle -->
+  <circle cx="300" cy="250" r="120" fill="white" opacity="0.95"/>
+
+  <!-- Inner breathing ring -->
+  <circle cx="300" cy="250" r="85" fill="none" stroke="#6B9AC4" stroke-width="4" opacity="0.6"/>
+
+  <!-- Center breathing circle -->
+  <circle cx="300" cy="250" r="55" fill="#6B9AC4" opacity="0.2"/>
+
+  <!-- Lotus/heart symbol -->
+  <path d="M300 200
+           C300 200 255 230 255 270
+           C255 300 280 325 300 325
+           C320 325 345 300 345 270
+           C345 230 300 200 300 200 Z"
+        fill="#6B9AC4" opacity="0.9"/>
+
+  <!-- Small accent dots -->
+  <circle cx="300" cy="165" r="8" fill="#6B9AC4" opacity="0.5"/>
+  <circle cx="365" cy="210" r="5" fill="#6B9AC4" opacity="0.4"/>
+  <circle cx="235" cy="210" r="5" fill="#6B9AC4" opacity="0.4"/>
+
+  <!-- App name -->
+  <text x="480" y="220" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white">SelfHelp</text>
+
+  <!-- Tagline -->
+  <text x="480" y="290" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.9">Find calm in moments of stress</text>
+
+  <!-- Feature highlights -->
+  <text x="480" y="360" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.8">6 Science-backed exercises</text>
+  <circle cx="465" cy="355" r="4" fill="white" opacity="0.8"/>
+
+  <text x="480" y="395" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.8">Works offline</text>
+  <circle cx="465" cy="390" r="4" fill="white" opacity="0.8"/>
+
+  <text x="480" y="430" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.8">No ads or tracking</text>
+  <circle cx="465" cy="425" r="4" fill="white" opacity="0.8"/>
+</svg>
