@@ -49,7 +49,7 @@ android {
     defaultConfig {
         applicationId "com.selfhelp.selfhelp"
         minSdkVersion flutter.minSdkVersion
-        targetSdk 34
+        targetSdk 35
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
